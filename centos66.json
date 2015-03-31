@@ -12,7 +12,7 @@
   "builders": [
     {
       "type": "virtualbox-iso",
-      "boot_command": "<tab> <wait5> noverifyssl ks=/ks/ks.cfg <wait><enter>",
+      "boot_command": "<tab> <wait5> noverifyssl ks=https://github.com/JorGois/parcker_example/blob/master/ks/ks.cfg <wait><enter>",
       "boot_wait": "4s",
       "guest_os_type": "Linux",
       "iso_checksum": "8c14c9a379aa7c7477471938ca06447d",
