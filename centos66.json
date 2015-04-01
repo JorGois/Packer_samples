@@ -19,7 +19,7 @@
       "iso_checksum_type": "md5",
       "iso_url": "http://mirrors.kernel.org/centos/6.6/isos/i386/CentOS-6.6-i386-minimal.iso",
       "ssh_username": "root",
-      "ssh_password": "gois",
+      "ssh_password": "password",
       "ssh_port": "22",
       "ssh_wait_timeout": "10000s",
       "guest_additions_path": "VBoxGuestAdditions_{{.Version}}.iso",
